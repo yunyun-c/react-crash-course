@@ -3,9 +3,9 @@ import ReactDOM from "react-dom/client";
 import { RouterProvider, createBrowserRouter } from "react-router-dom";
 
 import Posts from "./routes/Posts";
-import "./index.css";
 import NewPost from "./routes/NewPost";
 import RootLayout from "./routes/RootLayout";
+import "./index.css";
 
 const router = createBrowserRouter([
   {
